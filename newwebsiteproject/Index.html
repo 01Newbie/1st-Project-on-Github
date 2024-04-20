@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Group</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="path/to/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <link rel="stylesheet" type="text/css" href="SCSS/styles.scss" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("p").hide();
+        });
+        $("#show").click(function () {
+          $("p").show();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img
+          src="https://sghc.com/_next/static/files/super-group-logo-horizontal-37250462fb6b1f6539f0c764319f2c43.png"
+          alt="Logo image"
+        />
+        <ul>
+          <li><a href="About.html">About</a></li>
+          <li><a href="About-strategy">Strategy</a></li>
+          <li>
+            <a href="About-operating-responsibly">Operating Responsibly</a>
+          </li>
+          <li><a href="About-investors/">Investors</a></li>
+          <li><a href="About-way-forward">WayForward</a></li>
+          <li><a href="About-investors-news">News</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="carousel1" class="carousel">
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 1')">
+          Save for Later
+        </button>
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_7_4b15f0ee7b/large_slider_image_7_4b15f0ee7b.jpg"
+          class="slide"
+          alt="Slide 1"
+        />
+        <button class="saveButton" onclick="saveItem('Item 2')">
+          Save for Later
+        </button>
+      </div>
+      <div class="slide">
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_6_aa21fabdcf/large_slider_image_6_aa21fabdcf.jpg"
+          class="slide"
+          alt="Slide 2"
+        />
+        <button class="saveButton" onclick="saveItem('Item 3')">
+          Save for Later
+        </button>
+      </div>
+      <div class="slide">
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_6_aa21fabdcf/large_slider_image_6_aa21fabdcf.jpg"
+          class="slide"
+          alt="Slide 3"
+        />
+        <button class="saveButton" onclick="saveItem('Item 4')">
+          Save for Later
+        </button>
+      </div>
+      <div class="slide">
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_5_b194437b84/large_slider_image_5_b194437b84.jpg"
+          class="slide"
+          alt="Slide 4"
+        />
+        <button class="saveButton" onclick="saveItem('Item 5')">
+          Save for Later
+        </button>
+      </div>
+      <div class="slide">
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_3b_c3702447f7/large_slider_image_3b_c3702447f7.jpg"
+          class="slide"
+          alt="Slide 5"
+        />
+        <button class="saveButton" onclick="saveItem('Item 6')">
+          Save for Later
+        </button>
+      </div>
+      <div class="slide">
+        <img
+          src="https://storage.googleapis.com/supergroup-cms-production/large_slider_image_1_5ec42ef917/large_slider_image_1_5ec42ef917.jpg"
+          class="slide"
+          alt="Slide 6"
+        />
+      </div>
+    </div>
+
+    <div class="slider-content">
+      <h1>
+        Super Group is a global <br />
+        digital gaming company
+      </h1>
+      <hr />
+      <p>
+        Listed on the New York Stock Exchange and providing first-class
+        <br />
+        entertainment to the worldwide betting and gaming community
+      </p>
+      <button id="hide">Hide</button>
+      <button id="show">Show</button>
+    </div>
+
+    <div class="news">
+      <div class="text-block">
+        <h2>Our latest news and press releases can be found here.</h2>
+        <img
+          src="https://niia.gov.ng/wp-content/uploads/2021/06/Register_to_Participate_5-removebg-preview.png%E2%80%9D"
+          alt="More News"
+        />
+        <button>Click me</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-item">
+        <h2>About Super Group</h2>
+        <p id="p1">
+          Super Group is the holding company for leading global online sports
+          betting and gaming businesses: Betway, a premier online sports betting
+          brand, and Spin, a multi-brand online casino offering.
+        </p>
+        <a href="About-us">Learn more about us</a>
+      </div>
+
+      <div class="container-item">
+        <h2>Our Strategy</h2>
+        <p>
+          Our high-growth strategy is underpinned by our two distinct offerings
+          and our ever-increasing global footprint. Through our advanced
+          data-driven analytics, we are laser-focused on providing our customers
+          with the most engaging entertainment possible.
+        </p>
+        <a href="Strategy">Learn more about us</a>
+      </div>
+
+      <div class="container-item">
+        <h2>Operating Responsibly</h2>
+        <p>
+          We are committed to creating a safe gambling environment for all our
+          existing and future customers. We offer our customers industry-leading
+          support tools and services and closely monitor potential issues with
+          our leading technology offering.
+        </p>
+        <a href="Operating-responsibly">Learn more about us</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="About.html">About</a>
+        <a href="About-strategy">Strategy</a>
+        <a href="About-operating-responsibly">Operating Responsibly</a>
+        <a href="About-investors/">Investors</a>
+        <a href="About-way-forward">WayForward</a>
+        <a href="About-investors-news">News</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div id="carousel2" class="carousel">
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 7')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/Chicago-Bulls_64px@2x.png"
+          alt="Chicago Bulls logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 8')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/Escudocolor-logo.png"
+          alt="Escudocolor logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 9')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/GSW-Logo.png"
+          alt="GSW logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 10')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/MLC_Logo.png"
+          alt="MLC logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 11')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/MO_GRAD_COR_VERT_CMYK-sm.png"
+          alt="Miami Open logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 12')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/P76ers_Primary_logo.png"
+          alt="P76 logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 13')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/arsenalpartner-logo.png"
+          alt="Arsenal logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 14')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/audax-italiano.png"
+          alt="Audax logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 15')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/brighton.png"
+          alt="Brighton logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 16')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/cheltenham.png"
+          alt="Cheltenham logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 17')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/cleveland-cavaliers.png"
+          alt="cleveland cavaliers logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 18')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/coquimbo-unido.png"
+          alt="coquimbo logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 19')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/deportivo-nublense.png"
+          alt="deportivo-nublense logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 20')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/eintracht-frankfurt-logo.png"
+          alt="eintracht-frankfurt logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 21')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/european-logo.png"
+          alt="european logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 22')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/everton.png"
+          alt="everton logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 23')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/fc-schalke-logo.png"
+          alt="schalke logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 24')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/flyers-logo.png"
+          alt="flyers logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 25')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/generali-logo.png"
+          alt="generali logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 26')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/hamburg-logo-n.png"
+          alt="hamburg logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 27')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/jersey-devils-logo.png"
+          alt="jersey logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 28')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/jockey-club.png"
+          alt="jockey logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 29')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/logo-tottenham.png"
+          alt="tottenham logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 30')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/logo-westham.png"
+          alt="westham logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 31')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/miami-heat-logo.png"
+          alt="miami-heat logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 32')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/millennium-logo-n.png"
+          alt="millennium logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 33')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/milwarukee-bucks.png"
+          alt="milwarukee logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 34')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/minnesota-timberwolves-logo.png"
+          alt="timberwolves logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 35')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/mutua-madrid-logo.png"
+          alt="mutua-madrid logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 36')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/national-bank.png"
+          alt="national-bank logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 37')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/nhl-small.png"
+          alt="nhl logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 38')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/nordea-logo.png"
+          alt="nordea logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 39')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/rio-open-logo.png"
+          alt="rio logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 40')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/sa20-logo2.png"
+          alt="sa20 logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 41')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/springboks-logo.png"
+          alt="springboks logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 42')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/stockholm-logo-n.png"
+          alt="stockholm logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 43')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/terra-wortmann.png"
+          alt="terra-wortmann logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 44')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/union-la-calera.png"
+          alt="union-la-calera logo"
+        />
+      </div>
+      <div class="slide">
+        <button class="saveButton" onclick="saveItem('Item 45')">
+          Save for Later
+        </button>
+        <img
+          src="https://betwaygroup.com/Content/images/weissenhof_logo.png"
+          alt="weissenhof logo"
+        />
+      </div>
+    </div>
+
+    <button
+      type="button"
+      data-role="none"
+      class="slick-arrow slick-prev"
+      style="display: block"
+    >
+      Previous
+    </button>
+    <button
+      type="button"
+      data-role="none"
+      class="slick-arrow slick-next"
+      style="display: block"
+    >
+      Next
+    </button>
+    <!-- Add a link to the "Save for later" section page -->
+    <a href="Saved-Items.html">View Saved Items</a>
+
+    <div class="container">
+      <label for="newComment">Add your comment below-</label>
+      <textarea id="newComment"></textarea>
+      <button id="addComments">Add Comment</button>
+      <div id="allComments"></div>
+    </div>
+    <div class="contact-banner">
+      <h1>Contact Us</h1>
+
+      <p class="contact-description">
+        We'd really love to hear from you! Please fill in the form below and
+        submit
+      </p>
+    </div>
+
+    <form name="contact-form">
+      <div class="form-control">
+        <label>Full Name</label>
+        <input name="name" placeholder="First and Last Name" />
+        <div class="error hide">Name is required</div>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input name="email" placeholder="e.g. your_email@example.com" />
+        <div class="error hide">Email is invalid</div>
+      </div>
+
+      <div class="form-control">
+        <label>Phone</label>
+        <input name="phone" />
+        <div class="error hide">Phone is invalid</div>
+      </div>
+
+      <div class="form-control">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <div class="error hide">Message is required</div>
+      </div>
+
+      <hr />
+
+      <button type="submit">SUBMIT FORM</button>
+    </form>
+
+    <script src="JS/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick({
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        });
+      });
+
+      function saveItem(itemName) {
+        console.log("Item saved:", itemName);
+        let savedItems = JSON.parse(localStorage.getItem("savedItems")) || [];
+        savedItems.push(itemName);
+        localStorage.setItem("savedItems", JSON.stringify(savedItems));
+        alert(
+          'Item saved! Total items in "Save for Later" folder: ' +
+            savedItems.length
+        );
+      }
+
+      const commentContainer = document.getElementById("allComments");
+      document
+        .getElementById("addComments")
+        .addEventListener("click", addComment);
+
+      function addComment(event) {
+        let commentText;
+        const textBox = document.createElement("div");
+        const replyButton = document.createElement("button");
+        replyButton.className = "reply";
+        replyButton.innerHTML = "Reply";
+        const likeButton = document.createElement("button");
+        likeButton.innerHTML = "Like";
+        likeButton.className = "likeComment";
+        const deleteButton = document.createElement("button");
+        deleteButton.innerHTML = "Delete";
+        deleteButton.className = "deleteComment";
+        const wrapDiv = document.createElement("div");
+        wrapDiv.className = "wrapper";
+        wrapDiv.style.marginLeft = 0;
+        commentText = document.getElementById("newComment").value;
+        document.getElementById("newComment").value = "";
+        textBox.innerHTML = commentText;
+        wrapDiv.append(textBox, replyButton, likeButton, deleteButton);
+        commentContainer.appendChild(wrapDiv);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Items</title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" /> <!-- Assuming styles.scss is compiled into styles.css -->
+    <!-- Add any necessary stylesheets or external CSS files here -->
+</head>
+<body>
+    <h1>Saved Items</h1>
+    <div id="savedItems">
+        <!-- Saved items will be displayed here dynamically -->
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Retrieve saved items from local storage
+            const savedItems = JSON.parse(localStorage.getItem('savedItems'));
+
+            // Check if there are saved items
+            if (savedItems && savedItems.length > 0) {
+                const savedItemsContainer = document.getElementById('savedItems');
+
+                // Iterate through saved items and display them
+                savedItems.forEach(item => {
+                    const itemElement = document.createElement('div');
+                    itemElement.textContent = item;
+                    savedItemsContainer.appendChild(itemElement);
+                });
+            } else {
+                // Display a message if there are no saved items
+                const savedItemsContainer = document.getElementById('savedItems');
+                savedItemsContainer.textContent = 'No items saved.';
+            }
+        });
+    </script>
+</body>
+</html>
